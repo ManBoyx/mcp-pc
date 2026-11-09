@@ -1,0 +1,8 @@
+{
+  "match": "dolphin",
+  "hints": "Gestionnaire de fichiers KDE. Pour lire/créer/déplacer des fichiers, préférer le terminal (Desktop Commander) : plus fiable que l'interface. Dolphin sert à montrer un dossier à l'utilisateur (commande open) ; ui_read décrit la liste des fichiers et la barre d'emplacement. Raccourcis : ctrl+l (barre d'adresse), f2 (renommer), alt+haut (dossier parent).",
+  "commands": {
+    "open": { "description": "Ouvre un dossier dans Dolphin", "argv": ["dolphin", "{path}"] },
+    "select": { "description": "Ouvre le dossier et sélectionne un fichier", "argv": ["dolphin", "--select", "{path}"] }
+  }
+}

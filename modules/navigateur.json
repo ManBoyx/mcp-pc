@@ -1,0 +1,13 @@
+{
+  "match": "helium|brave|chrome|chromium",
+  "hints": "Navigateur : NE PAS utiliser ui_read ni les captures, utiliser les outils browser_* (extension Contrôle PC) : browser_tabs, browser_read (éléments numérotés), browser_click, browser_type, browser_navigate, browser_extract. Si l'extension n'est pas connectée, ouvrir le navigateur avec app_launch puis réessayer. L'interface du navigateur lui-même (barre d'onglets, menus) reste accessible via ui_read.",
+  "commands": {
+    "open": {
+      "description": "Ouvre une URL dans le navigateur par défaut",
+      "argv": [
+        "xdg-open",
+        "{url}"
+      ]
+    }
+  }
+}

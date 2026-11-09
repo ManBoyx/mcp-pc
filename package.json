@@ -1,0 +1,17 @@
+{
+  "name": "mcp-pc",
+  "version": "1.0.0",
+  "description": "Serveur MCP de contrôle d'un PC Linux (KDE Wayland) : fichiers, terminal, écran, clavier, souris, fenêtres, interface et navigateur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "type": "commonjs",
+  "dependencies": {
+    "@wonderwhy-er/desktop-commander": "^0.3.1",
+    "supergateway": "^4.2.1"
+  }
+}

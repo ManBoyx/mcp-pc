@@ -1,0 +1,5 @@
+{
+  "match": "kate|kwrite",
+  "hints": "Éditeur de texte. Pour modifier un fichier, préférer l'écriture directe du fichier (Desktop Commander). Kate sert à ouvrir un fichier pour l'utilisateur. Raccourcis : ctrl+s (enregistrer), ctrl+f (chercher), ctrl+g (aller à la ligne).",
+  "commands": { "open": { "description": "Ouvre un fichier (option line pour la ligne)", "argv": ["kate", "--line", "{line}", "{path}"], "defaults": { "line": "1" } } }
+}

@@ -1,0 +1,9 @@
+# Secrets et état local : ne jamais versionner / Secrets and local state: never commit
+token.txt
+browser-token.txt
+oauth-state.json
+browser-extension/config.js
+*.log
+*.sauvegarde*
+node_modules/
+__pycache__/
